@@ -35,5 +35,10 @@ El proyecto proporciona micro servicio para consultar los indicadores .
 - mvn clean install
 - mvn spring-boot:run
 
+## Swagger 
 
+Para utilizar swagger debemos acceder a la siguiente ruta  #server:#port/swagger-ui.html,
+debemos reemplazar la variable server y port donde :
+- `#server`: ip del servidor donde se esta levantando la aplicacion
+- `#port`:  puerto del servidor donde se esta levantando la aplicacion
 
