@@ -22,7 +22,7 @@ public class SwaggerConfig  {
     public Docket apiDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("cl.proyect.test.integracion.IndicadorController"))
+                .apis(RequestHandlerSelectors.basePackage("cl.proyect.test.integracion.IndicatorController"))
                 .paths(PathSelectors.any())
                 .build()
                 .apiInfo(getApiInfo())
